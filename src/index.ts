@@ -31,4 +31,18 @@ var caesarShift = function(text, miktar) {
 
 };
 
-console.log(caesarShift("Buse",3));
+
+
+
+
+var pigLatin = function (word)
+{
+
+  var newWord = [];
+  for (let index = 0; index < word.length; index++) {
+    newWord[index] = word[index+1];
+  }
+
+  console.log(newWord.join('') + word[0] + "ay");
+}
+
